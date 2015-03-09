@@ -1,0 +1,177 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* center contents */
+    text-align: center;
+    font-size: 40px;
+    font-style:italic;
+   font-style:bold;
+    
+}
+
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#middle td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+#middle .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+.left
+{
+ text-align: left;
+}
+.hidemenu
+{
+	display:none;
+}
+#submitbox
+{
+	 text-align: left;
+	border: 2px inset rgba(0,0,0,0.65);	
+	width: 300px;	 
+}
+.subitem
+{
+	color:green;
+}
+.note
+{
+	display:none;
+	margin-left:50px;
+	position:fixed;
+	top:65px;
+	border: 2px inset rgba(0,0,0,0.65);	
+	width: 300px;	 
+	background-color:#FFFF00;
+}
+.stop
+{
+text-align: center;
+}
+
+table { table-layout: fixed;
+	
+border-collapse: collapse;
+       border-spacing: 0;
+
+}
+    .circle_green
+    {
+        border: 2px solid #a1a1a1;
+        padding: 10px 10px;
+        
+        
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
+
+
+#farleft {
+	width: 25%;
+	
+}
+
+#midleft {
+	width: 75%;
+   
+}
+#midright {
+	width: 125%;
+	
+}
+#farright {
+	width: 175%;
+	
+}
+
+.wrap {
+    background:red;
+	white-space:nowrap;
+    width:300px;
+}
+.element {
+    text-align:center;
+    vertical-align: top;
+
+    display:inline-block;
+    
+    margin:4px;
+}
+.boxes{
+	vertical-align: top;
+    width: auto;
+    text-align: left;
+    padding: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 35px;
+}
+#pluriL{
+	visibility: hidden;
+}
+#nscL{
+	visibility: hidden;
+}
+#bregionL{
+	visibility: hidden;
+}
+#otherL{
+	visibility: hidden;
+}
+.markers{
+	position: absolute;
+    display: none;
+    background: #ccc;
+    border: 1px solid;
+}
+#lists{
+	display:none;
+}
+#dilution{
+	position: absolute;
+	left: 40%;
+}
+
